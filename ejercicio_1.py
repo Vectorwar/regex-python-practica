@@ -30,3 +30,6 @@ ejemplos = [
 for ejemplo in ejemplos:
     resultado = "✓ Valido" if validar_correo(ejemplo) else "✗ Invalido"
     print(f"{ejemplo:30} -> {resultado}") 
+
+if __name__ == "__main__":
+    pass  # Evita ejecución al importar
