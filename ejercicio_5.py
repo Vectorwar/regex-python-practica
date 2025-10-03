@@ -5,7 +5,7 @@ import re
 from datetime import datetime # Importa datetime para manejar fechas
 
 def analizar_y_formatear_fechas(texto):
-    #  Numeros de meses de español a números
+    #  Meses a numeros para facilitar la conversión
     meses_a_numeros = {
         'enero': '01', 'febrero': '02', 'marzo': '03', 'abril': '04',
         'mayo': '05', 'junio': '06', 'julio': '07', 'agosto': '08',
