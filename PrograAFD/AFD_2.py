@@ -1,4 +1,4 @@
-"""Programacion de un AFD que acepte todas las cadenas sobre {a,b}
+"""Diseño de un AFD que acepte todas las cadenas sobre {a,b}
 que su longitud sea multiplo de 3."""
 
 def validar(AFD, palabra):

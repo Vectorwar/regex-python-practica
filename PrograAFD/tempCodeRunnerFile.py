@@ -1,0 +1,1 @@
+"""Diseño de un AFD que acepte todas las cadenas 
