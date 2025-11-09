@@ -19,12 +19,13 @@ class AnalizadorLexico:
         
         # diccionario de patrones para los tokens
         self.patrones = [
-            ('KEYWORD', r'\b(float|int|if|else|while|return)\b'),#palabras reservadas
+            ('KEYWORD', r'\b(auto|break|case|char|const|continue|default|do|double|else|enum|extern|float|for|goto|if|int|long|register|return|short|signed|sizeof|static|struct|switch|typedef|union|unsigned|void|volatile|while)\b'),            
             ('IDENTIFIER', r'[a-zA-Z_][a-zA-Z0-9_]*'), #identificadores
             ('NUMBER', r'\d+(\.\d+)?'), #números enteros y flotantes
             ('OPERATOR', r'[+\-*/=<>!]'), #operadores aritméticos y de asignación
             ('SEPARATOR', r'[;,\(\)\{\}]'), #dos puntos, comas, paréntesis, llaves
-            ('WHITESPACE', r'\s+'),# Espacios en blanco (se ignoran)d
+            ('WHITESPACE', r'\s+'),# Espacios en blanco (se ignoran)
+            ('COMMENT', r'//.?$|/\.?\/'), #comentarios de una y varias lineas            
             ('NEWLINE', r'\n'),# saltos de línea
             ('ERROR', r'.') #cualquier otro caracter no reconocido
         ]
