@@ -1,0 +1,54 @@
+================================================================================
+TABLA DE SÍMBOLOS
+================================================================================
+
+Renglón    Lexema                    Token                Categoría                
+--------------------------------------------------------------------------------
+1          if                        IF                   PALABRA_RESERVADA        
+1          (                         PA                   AGRUPACION               
+1          x                         ID                   IDENTIFICADOR            
+1          >                         MAYOR                OPERADOR_RELACIONAL      
+1          5                         NUM                  NUMERO                   
+1          &&                        AND                  OPERADOR_LOGICO          
+1          y                         ID                   IDENTIFICADOR            
+1          <=                        MENOR_IGUAL          OPERADOR_RELACIONAL      
+1          30                        NUM                  NUMERO                   
+1          )                         PC                   AGRUPACION               
+1          then                      ID                   IDENTIFICADOR            
+2          message                   ID                   IDENTIFICADOR            
+2          =                         ASIGNACION           OPERADOR_ASIGNACION      
+2          Condition                 ID                   IDENTIFICADOR            
+2          is                        ID                   IDENTIFICADOR            
+2          true                      ID                   IDENTIFICADOR            
+2          ;                         PYC                  AGRUPACION               
+3          result                    ID                   IDENTIFICADOR            
+3          =                         ASIGNACION           OPERADOR_ASIGNACION      
+3          x                         ID                   IDENTIFICADOR            
+3          -                         MENOS                OPERADOR_ARITMETICO      
+3          y                         ID                   IDENTIFICADOR            
+3          ;                         PYC                  AGRUPACION               
+4          else                      ELSE                 PALABRA_RESERVADA        
+5          result                    ID                   IDENTIFICADOR            
+5          =                         ASIGNACION           OPERADOR_ASIGNACION      
+5          0                         NUM                  NUMERO                   
+5          ;                         PYC                  AGRUPACION               
+7          variables                 ID                   IDENTIFICADOR            
+8          int                       INT                  PALABRA_RESERVADA        
+8          x                         ID                   IDENTIFICADOR            
+8          ,                         COMA                 AGRUPACION               
+8          y                         ID                   IDENTIFICADOR            
+8          ,                         COMA                 AGRUPACION               
+8          result                    ID                   IDENTIFICADOR            
+8          ;                         PYC                  AGRUPACION               
+9          float                     FLOAT                PALABRA_RESERVADA        
+9          pi                        ID                   IDENTIFICADOR            
+9          ,                         COMA                 AGRUPACION               
+9          area                      ID                   IDENTIFICADOR            
+9          ;                         PYC                  AGRUPACION               
+10         string                    ID                   IDENTIFICADOR            
+10         message                   ID                   IDENTIFICADOR            
+10         ;                         PYC                  AGRUPACION               
+
+================================================================================
+Total de tokens: 44
+================================================================================
