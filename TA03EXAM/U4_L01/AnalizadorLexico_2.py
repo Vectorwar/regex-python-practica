@@ -1,4 +1,4 @@
-"""Example 2 - Analizador Léxico"""
+"""Example 2 - Analizador Léxico Mejorado"""
 import re
 import os 
 
